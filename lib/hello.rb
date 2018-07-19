@@ -9,6 +9,8 @@ def hello_t(array)
   end
   
   array
+  
+else
 end
 
 #=> call method with array of names as an argument
