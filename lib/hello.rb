@@ -9,6 +9,8 @@ def hello_t(array)
   end
 end
 
+#=> call method with array of names as an argument
+#=> accompany that method call with a block that accepts a name parameter
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
