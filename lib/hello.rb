@@ -10,7 +10,8 @@ def hello_t(array)
   
   array
   
-else
+  else
+    puts "Hey! No block was given!"
 end
 
 #=> call method with array of names as an argument
